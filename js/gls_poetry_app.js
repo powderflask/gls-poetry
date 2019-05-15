@@ -44,7 +44,7 @@ var gls_poetry = (function (exports) {
         get purge () { return purge; }
     });
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:17
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var __name__ = 'org.transcrypt.__runtime__';
 
     function __nest__ (headObject, tailNames, value) {
@@ -1816,7 +1816,7 @@ var gls_poetry = (function (exports) {
     var print = __terminal__.print;
     var input = __terminal__.input;
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var pi = Math.PI;
     var e = Math.E;
     var exp = Math.exp;
@@ -1928,7 +1928,7 @@ var gls_poetry = (function (exports) {
         modf: modf
     });
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var math = {};
     __nest__ (math, '', __module_math__);
     var _array = (function () {
@@ -2013,7 +2013,7 @@ var gls_poetry = (function (exports) {
         shuffle: shuffle
     });
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var random$1 = {};
     __nest__ (random$1, '', __module_random__);
     var __name__$1 = 'gls_poetry.vocabulary';
@@ -2077,7 +2077,7 @@ var gls_poetry = (function (exports) {
     	});}
     });
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var re = {};
     __nest__ (re, '', __module_re__);
     var __name__$2 = 're.translate';
@@ -2564,7 +2564,7 @@ var gls_poetry = (function (exports) {
     	return tuple ([resolvedTokens, flags, namedGroups, __call__ (countCaptureGroups, null, stack), n_splits]);
     };
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var __name__$3 = 're';
     var T = __lshift__ (1, 0);
     var TEMPLATE = T;
@@ -3475,7 +3475,7 @@ var gls_poetry = (function (exports) {
     	// pass;
     };
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var math$1 = {};
     var random$2 = {};
     var re$1 = {};
@@ -4046,7 +4046,7 @@ var gls_poetry = (function (exports) {
     	return __call__ (GLpoemSquare, null, square, vocab);
     };
 
-    // Transcrypt'ed from Python, 2019-05-15 14:32:18
+    // Transcrypt'ed from Python, 2019-05-15 15:36:05
     var __name__$5 = '__main__';
     var html_newlines = function (text) {
     	return (function () {
