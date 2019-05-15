@@ -1,0 +1,91 @@
+/*! Graeco-Latin Square Poems v0.1 | MIT License | https://github.com/powderflask/gls-poetry/ */
+
+/* styles.css 1.0.0 | MIT License | https://github.com/powderflask/gls-poetry/styles.css */
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+.panel {
+    border-top: lightgreen solid 1px;
+    padding: 25px 5% 25px 5%;
+}
+.row .panel:first-child {
+    border-right: lightgreen dashed 1.5px;
+}
+
+#GL-Square table {
+    font-size: larger;
+    margin: auto;
+    table-layout: fixed;
+    width: 100%;
+}
+#GL-Square table td {
+    border: darkgreen solid 1px;
+    padding: 15px 0;
+    text-align: center;
+    width: max-content;
+}
+#GL-Square .cell-label {
+    display: block;
+    font-family: "Helvetica Neue", sans-serif;
+}
+#GL-Square .cell-word::before {
+    display: block;
+}
+#GL-Square .cell-word {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#GL-Poem .stanza {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#GL-select_square > table td {
+    padding: 5px 20px;
+}
+#GL-select_square table td table {
+    border-collapse: collapse;
+}
+#GL-select_square table td table td {
+    border: lightgreen solid 1px;
+    font-size: smaller;
+    padding: 3px;
+    text-align: center;
+}
+
+.toolbar {
+    margin: 0.5em 5%;
+    text-align: right;
+}
+.toolbar button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: snow;
+    color: darkgreen;
+    margin-right: 3px;
+}
+.toolbar .button-group {
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.toolbar .button-group button {
+    margin-right: 1px;
+}
+
+footer {
+    font-weight: lighter;
+    color: gray;
+    margin: 10px;
+    text-align: center;
+}

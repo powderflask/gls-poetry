@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Graeco-Latin Square Poems</title>
+  <meta name="description" content="Generate Graeco-Latin Square poems and poetry puzzles">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <h1>
+    Graeco-Latin Square Poems
+  </h1>
+
+  <div class="toolbar">
+    <button id="GL-save-poem" title="Save Poem"><i class="fas fa-save"></i></button>
+    <button id="GL-create-puzzle" title="Create Puzzle"><i class="fas fa-puzzle-piece"></i></button>
+  </div>
+  <div class="row">
+    <div class="panel column">
+      <div id="GL-Square">
+        <table>
+          <tbody>
+          <tr>
+            <td><span class="cell-label">1A</span><span class="cell-word">hold</span></td>
+            <td><span class="cell-label">2C</span><span class="cell-word">now</span></td>
+            <td><span class="cell-label">3B</span><span class="cell-word">suspend</span></td>
+          </tr>
+          <tr>
+            <td><span class="cell-label">2B</span><span class="cell-word">star</span></td>
+            <td><span class="cell-label">3A</span><span class="cell-word">far</span></td>
+            <td><span class="cell-label">1C</span><span class="cell-word">desire</span></td>
+          </tr>
+          <tr>
+            <td><span class="cell-label">3C</span><span class="cell-word">tender</span></td>
+            <td><span class="cell-label">1B</span><span class="cell-word">still</span></td>
+            <td><span class="cell-label">2A</span><span class="cell-word">beyond</span></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="panel column">
+      <h2>Your Poem</h2>
+      <div id="GL-Poem">
+        <blockquote>
+          <p class="stanza">
+              Hold still desire<br>
+              Star now beyond<br>
+              Tender far suspend<br>
+          </p>
+          <p class="stanza">
+              Hold far beyond<br>
+              Suspend star still<br>
+              Now desire tender<br>
+          </p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <button id="GL-permute-poem" title="Permute Words"><i class="fas fa-random"></i></button>
+    <span  class="button-group">
+      <button id="GL-randomize-vocabulary" title="Random Selection"><i class="fas fa-sync"></i></button>
+       <select id="GL-select-vocabulary">
+        <option value="Poetic">Poetic Words</option>
+        <option value="Math">Math Words</option>
+        <option value="Mixed">Mixed Words</option>
+      </select>
+    </span>
+  </div>
+  <div class="row">
+    <div class="panel column">
+      <h2>Select Poem G-L Square</h2>
+      <div id="GL-select_square">
+        <form>
+          <table>
+            <tbody>
+            <tr>
+              <td><input type="radio" name="gl-square" value="0" checked></td>
+              <td>
+                <table class="definition">
+                  <tbody>
+                  <tr><td>1A</td><td>2C</td><td>3B</td></tr>
+                  <tr><td>2B</td><td>3A</td><td>1C</td></tr>
+                  <tr><td>3C</td><td>1B</td><td>2A</td></tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="gl-square" value="1"></td>
+              <td>
+                <table class="definition">
+                  <tbody>
+                  <tr><td>1A</td><td>2B</td><td>3C</td></tr>
+                  <tr><td>2C</td><td>3A</td><td>1B</td></tr>
+                  <tr><td>3B</td><td>1C</td><td>2A</td></tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="gl-square" value="2"></td>
+              <td>
+                <table class="definition">
+                  <tbody>
+                  <tr><td>2B</td><td>1C</td><td>3A</td></tr>
+                  <tr><td>1A</td><td>3B</td><td>2C</td></tr>
+                  <tr><td>3C</td><td>2A</td><td>1B</td></tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="panel column">
+      <h2>Edit Poem Vocabulary</h2>
+      <div id="GL-edit-vocabulary">
+        <form>
+          <textarea rows="16" cols="25">
+            hold
+            now
+            suspend
+            star
+            far
+            desire
+            tender
+            still
+            beyond
+          </textarea>
+        </form>
+      </div>
+      <small>One "word" per line.  Poem will complete when enough words are enetered.</small>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="copyright">
+      <p>&copy;2019 Lisa Lajeunesse</p>
+    </div>
+  </footer>
+
+  <script src="js/gls_poetry_app.js"></script>
+
+</body>
+
+</html>
