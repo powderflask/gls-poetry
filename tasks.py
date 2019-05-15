@@ -53,7 +53,9 @@ def deploy(c):
         https://github.com/X1011/git-directory-deploy
         https://help.github.com/en/articles/user-organization-and-project-pages
     """
-    print("Deploying!")
+    print("Deploying to github.io...")
+    cmd = c.commands['deploy']
+    c.run(cmd)
 
 
 @task
@@ -103,5 +105,6 @@ ns.configure({
         'package' : "mkdir {target} && cp -R {paths} {target}",
         'unittest' : "python3 {src_path}{filename}",
         'autotest' : "python3 -m transcrypt -r -m -n -o {src_path}{autotest} && python3 -m transcrypt -b -m -n -o {src_path}{autotest}",
+        'deploy' : "./deploy.sh",
     },
 })
