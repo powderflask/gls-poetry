@@ -1,0 +1,57 @@
+<html><head><meta charset = 'UTF-8'>
+        <style>
+          body {
+            max-width: 100%;
+          }
+          .faultrow > td {
+             background-color: LightCoral;
+          }
+          #resulttable {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+          }
+          #resulttable th, #resulttable td {
+            border: 1px solid grey;
+          }
+          .testletheader > td {
+            background-color: LightSkyBlue;
+          }
+          .header-pos {
+            width: 20%;
+          }
+          .header-val {
+            width: 30%;
+          }
+          .py-pos,.trans-pos {
+            width: 20%;
+            overflow: hidden;
+          }
+          .py-val, .trans-val {
+            width: 30%;
+            overflow-x: auto;
+          }
+          .exc-header {
+          color: red;
+          }
+          .collapsed {
+            display: None;
+          }
+        </style>
+        </head><body><b>Status:</b>
+<div id="message"></div><br><br>
+
+<div id="python" style="display: None"><div id="unsupported_features">
+<div id="pyresults">(1, 2, 3, 4) | [1, 2, 3, 4]</div>
+
+<div id="pypos">test/unsupported_features.py:6 | test/unsupported_features.py:10</div>
+</div>
+<div id="workarounds">
+<div id="pyresults">'Python 2.x format does NOT work' | 'Python 3.x format does indeed work' | (0, 2, 4) | (0, 2, 4) | ['t', 'uv', 'abc', 'ijkl', 'defgh', 'mnopqrs'] | ['t', 'uv', 'abc', 'ijkl', 'defgh', 'mnopqrs'] | [1, 2, 3, 4, 5, 6, 7, 8, 9]</div>
+
+<div id="pypos">test/workarounds.py:5 | test/workarounds.py:6 | test/workarounds.py:9 | test/workarounds.py:10 | test/workarounds.py:14 | test/workarounds.py:16 | test/workarounds.py:23</div>
+</div>
+</div></div>
+<div id="exc-area"></div><div id="results"><div> <a id="force-collapse" href="#"> Collapse All</a> <a id="force-expand" href="#">Expand All</a></div><table id="resulttable"><thead><tr> <th colspan="2"> CPython </th> <th colspan="2"> Transcrypt </th> </tr><tr> <th class="header-pos"> Location </th> <th class="header-val"> Value </th> <th class="header-val"> Value </th> <th class="header-pos"> Location </th> </tr></thead><tbody></tbody></table></div><script type="module" src="__target__/autotest.js"></script>
+
+</body></html>

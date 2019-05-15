@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Lisa Lajeunesse - author
+    Joseph Fall -- software design / programming
+
+# THANKS
+
+    Capilano University, North Vancouver, Canada
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    node/npm, Python3
+    Apache Server, Normalize.css, HTML5 Boilerplate, Transcrypt, Rollup, Invoke
