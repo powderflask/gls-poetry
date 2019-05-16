@@ -13,5 +13,5 @@
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    node/npm, Python3
-    Apache Server, Normalize.css, HTML5 Boilerplate, Transcrypt, Rollup, Invoke
+    Python3, Transcrypt
+    Apache Server, Normalize.css, HTML5 Boilerplate, Rollup, Invoke, git-directory-deploy

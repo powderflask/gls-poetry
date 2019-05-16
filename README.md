@@ -21,7 +21,7 @@ The solved puzzle unscrambles the words of a poem.
 ## Fun Facts
 
 * Python application transpiled to native ES6 with Transcrypt [transcrypt.org](https://transcrypt.org/)
-* Python build and deployment with Invoke [pyinvoke.org](https://www.pyinvoke.org/)
+* Python build and deployment with Invoke [pyinvoke.org](https://www.pyinvoke.org/) and [git-directory-deploy](https://github.com/X1011/git-directory-deploy)
 
 
 ## Developers Quick start
