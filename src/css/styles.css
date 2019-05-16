@@ -31,7 +31,6 @@ body {
     border: darkgreen solid 1px;
     padding: 15px 0;
     text-align: center;
-    width: max-content;
 }
 #GL-Square .cell-label {
     display: block;
