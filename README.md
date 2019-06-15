@@ -34,9 +34,7 @@ Choose one of the following options:
 
 Dependencies:
 - Python 3.7
-- npm
 - `pip install -r requirements.txt`
-- `npm install -g rollup`
 
 Build: 
 - `invoke build`
