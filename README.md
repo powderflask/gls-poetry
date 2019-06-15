@@ -42,13 +42,6 @@ Build:
 - `invoke build`
 - open `dist/index.html` in browser
 
- 
-- `npm install`
-- `npm install -g rollup`
-- `npm run build`
-- open `dist/index.html` in browser
-
-
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
